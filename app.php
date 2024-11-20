@@ -125,11 +125,11 @@ $progressText = $totalTasks > 0 ? "$completedTasks/$totalTasks tasks done" : "No
         <div class="date-time">
             <div>
                 <label for="date">Date</label>
-                <input type="date" name="date" id="date" placeholder="dd/mm/yy"  onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                <input type="date" name="date" id="date" placeholder="dd/mm/yy" required>
             </div>
             <div>
                 <label for="time">Time</label>
-                <input type="time" name="time" id="time" placeholder="hh : mm"  onfocus="(this.type='time')" onblur="(this.type='text')" required>
+                <input type="time" name="time" id="time" placeholder="hh : mm" required>
             </div>
         </div>
         <div class="buttons">
