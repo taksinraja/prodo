@@ -1,6 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Update current date
+    const taskDate = document.getElementById('date');
+    const taskDay = this.documentURI.getElementById('day');
     const today = new Date();
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1; // Adding 1 to get the correct month
+    const day = date.getDate();
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+
+    taskDate.value = `${day}/${month}/${year}`;
+    taskDay.value = `${hours}:${minutes}`;
+
     const options = { weekday: 'long', month: 'long', day: 'numeric' };
     document.querySelector('.calendar-widget .day').textContent = today.toLocaleDateString('en-US', { weekday: 'long' }).toUpperCase();
     document.querySelector('.calendar-widget .date').textContent = today.getDate();
