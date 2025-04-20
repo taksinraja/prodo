@@ -24,7 +24,7 @@ Prodo is a modern task management application that helps users organize their da
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[username]/prodo.git
+   git clone https://github.com/taksinraja/prodo.git
    ```
 
 2. Import the database schema (SQL file will be provided separately)
